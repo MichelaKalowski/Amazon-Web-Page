@@ -1,0 +1,79 @@
+body {
+    width: 100%;
+}
+
+header {
+    background-color: #22303f;
+    width: 100%;
+    max-height: 80px;
+    font-family: Arial, sans serif;
+}
+
+.topbannering {
+    max-width: 10%;
+}
+
+nav a {
+    background-color: #354858;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+.immagineorizzontale{
+    margin: 5px 5px 5px 5px;
+    float: left;
+    width: 25%;
+}
+
+.banner1 {
+    background-image: url(.//assets/bg-image.png);
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-family: Helvetica, san sans-serif;
+}
+
+div p {
+    color: white;
+}
+
+h5 {
+    font-family: Arial, sans-serif;
+}
+
+span {
+    font-family: Helvetica, sans-serif;
+    color: rgb(77, 77, 207)
+}
+
+main div {
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    background-color:#22303f;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+footer nav a {
+    background-color: #354858;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.bottombannering{
+    text-align: center;
+}

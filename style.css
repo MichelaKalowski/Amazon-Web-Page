@@ -1,79 +1,80 @@
-body {
-    width: 100%;
-}
-
 header {
-    background-color: #22303f;
     width: 100%;
-    max-height: 80px;
-    font-family: Arial, sans serif;
+    float: top;
+    background-color: #222f3f;
+    height: 50px;
 }
 
-.topbannering {
-    max-width: 10%;
+.main {
+    width: 100%;
+    background-color: #364759;
+    font-family: 'Arial', sans-serif;
 }
 
-nav a {
-    background-color: #354858;
+.div_menu {
+    width: 100%;
+    float: top;
+    background-color: #364759;
+    height: 25px;
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
-main {
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: white;
-}
-.immagineorizzontale{
-    margin: 5px 5px 5px 5px;
-    float: left;
-    width: 25%;
+.menu {
+    margin: 10px;
+    color: white;
+    font-size: 13px;
 }
 
-.banner1 {
+a {
+    text-decoration: none;
+}
+
+
+
+.container {
+    margin: 0px auto;
+    max-width: 1000px
+}
+
+.div_container2 {
+    width: 100%;
+    float: top;
+    background-color: #e9edee;
+    padding: 20px 0px 20px 0px;
+    color: white;
+}
+
+.div_orange {
+    background-color: #f76500;
+    margin: 0px 20px 20px 20px;
+    height: 30px;
+    color: white;
+    text-align: center;
+}
+
+.div_title {
+    margin: 20px 20px 20px 20px;
+    height: 160px;
+    color: white;
+    text-align: center;
     background-image: url(.//assets/bg-image.png);
+    background-repeat: repeat-y;
+    background-size: contain;
     text-align: center;
 }
 
-h1 {
-    color: white;
-    font-family: Helvetica, san sans-serif;
+.div_4images {
+    background-color: #fff;
+    margin: 20px 20px 20px 20px;
+    height: 320px;
 }
 
-div p {
-    color: white;
-}
-
-h5 {
-    font-family: Arial, sans-serif;
-}
-
-span {
-    font-family: Helvetica, sans-serif;
-    color: rgb(77, 77, 207)
-}
-
-main div {
-    text-align: center;
-}
-
-footer {
-    width: 100%;
-    background-color:#22303f;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-
-}
-
-footer nav a {
-    background-color: #354858;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    
-}
-.bottombannering{
-    text-align: center;
+.div_img {
+    width: 21%;
+    float: left;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    height: 250px;
+    overflow: hidden;
 }
